@@ -1,1 +1,120 @@
 # Portfolio_site
+<!DOCTYPE html>
+<html>
+<head>
+    <title>My Portfolio</title>
+
+    <!-- Page Styling -->
+    <style>
+        body {
+            background-image: url("https://png.pngtree.com/thumb_back/fh260/background/20210324/pngtree-abstract-playful-portfolio-pink-memphis-image_593415.jpg");
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+            font-family: Arial, sans-serif;
+        }
+
+        header {
+            background-color: rgba(255, 255, 255, 0.8);
+            text-align: center;
+            padding: 20px;
+            border-radius: 10px;
+            margin: 20px;
+        }
+
+        section {
+            background-color: rgba(255, 255, 255, 0.7);
+            margin: 20px;
+            padding: 15px;
+            border-radius: 10px;
+        }
+
+        nav a {
+            margin: 0 10px;
+            color: blue;
+            font-weight: bold;
+            text-decoration: none;
+        }
+
+        h2 {
+            color: darkred;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>AVIRAL KUMAR UPADHYAY</h1>
+        <p>Beginner Web Developer</p>
+
+        <!-- Navigation Links -->
+        <nav>
+            <a href="#about">About</a>
+            <a href="#projects">Projects</a>
+            <a href="#skills">Skills</a>
+            <a href="#education">Education</a>
+            <a href="#contact">Contact</a>
+        </nav>
+    </header>
+
+    <!-- ABOUT -->
+    <section id="about">
+        <h2>About Me</h2>
+        <p>
+            Hello! I am Aviral Kumar Upadhyay.  
+            I am an Engineering student at PSIT.  
+            I know Python, C, and a bit of Java.  
+            Currently learning Web Development.
+        </p>
+    </section>
+
+    <!-- PROJECTS -->
+    <section id="projects">
+        <h2>Projects</h2>
+        <ol>
+            <li>Simple Calculator (in C)</li>
+            <li>Stone Paper Scissor (Python)</li>
+            <li>Portfolio Website (HTML)</li>
+        </ol>
+    </section>
+
+    <!-- SKILLS -->
+    <section id="skills">
+        <h2>Skills</h2>
+        <ul>
+            <li>HTML</li>
+            <li>C</li>
+            <li>Python</li>
+        </ul>
+    </section>
+
+    <!-- EDUCATION -->
+    <section id="education">
+        <h2>Education</h2>
+        <table border="1" width="100%">
+            <tr>
+                <th>Level</th>
+                <th>Institute</th>
+                <th>Year</th>
+            </tr>
+            <tr>
+                <td>High School</td>
+                <td>City Convent School</td>
+                <td>2022</td>
+            </tr>
+            <tr>
+                <td>Intermediate</td>
+                <td>Swarnim Public School</td>
+                <td>2024</td>
+            </tr>
+        </table>
+    </section>
+
+    <!-- CONTACT -->
+    <section id="contact">
+        <h2>Contact</h2>
+        <p>Email: upadhyayaviral825@gmail.com</p>
+    </section>
+
+</body>
+</html>
